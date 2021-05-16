@@ -2,7 +2,7 @@
 
 import sys, os, json, requests
 
-server_location = "http://" + sys.argv[1] + "/feedback"
+server_location = "http://" + sys.argv[1] + "/feedback/"
 file_list = os.listdir("/data/requests")
 current_request = {}
 
